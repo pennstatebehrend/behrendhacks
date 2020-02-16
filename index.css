@@ -6,8 +6,10 @@ h1 {
 }
 .heading{
 }
+.row{
+  padding: 1%;
+}
 .container-lg {
     color: white;
     background-color: #435772;
-
 }
