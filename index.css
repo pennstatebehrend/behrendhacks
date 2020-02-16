@@ -12,9 +12,13 @@ p{
 .heading{
 }
 .row{
-  padding: 1%;
+  padding: 3%;
 }
 .container-lg {
     color: white;
     background-color: #435772;
+    border-radius: 20px;
+}
+#logo{
+  border-radius: 20px;
 }
