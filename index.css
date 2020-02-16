@@ -1,7 +1,10 @@
 
 
-#title {
+h1 {
+  text-align: center;
 
+}
+.heading{
 }
 #about {
     color: white;
