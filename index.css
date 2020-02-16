@@ -1,8 +1,12 @@
 
 body{
   background-color: rgb(179,244,246) ;
+  color: white;
+  font-family: 'Squada One', cursive;
 }
 h1 {
+  background-color: #435772;
+  border-radius: 20px;
   text-align: center;
   padding: 5%;
 }
