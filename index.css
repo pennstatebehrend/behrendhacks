@@ -19,6 +19,7 @@ h2{
 p{
   padding:1%;
 }
+
 .row{
   padding: 3%;
 }
@@ -32,4 +33,29 @@ p{
 }
 #logo{
   border-radius: 20px;
+}
+
+.button-register:hover {
+  border-color: transparent;
+color: #000;
+background-color:
+#fff;
+}
+
+
+#button-register {
+  background: #435772;
+  padding: 12px 22px;
+  border: 2px solid #435772;
+	color: white;
+}
+
+#button-register:hover, #button-register:focus, #button-register:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+	color: rgb(45,164,168);
+	border-color: rgb(45,164,168);
+}
+#button-register:active {
+	border-color: rgb(45,164,168);
+	color:  rgb(45,164,168);
+	box-shadow: none;
 }
