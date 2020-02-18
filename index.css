@@ -2,7 +2,8 @@
 body{
   background-color: rgb(179,244,246) ;
   color: white;
-  font-family: 'Squada One', cursive;
+  font-family: 'Roboto', sans-serif;
+  
 }
 h1 {
   background-color: #435772;
@@ -17,13 +18,15 @@ h2{
   padding: 5%;
 }
 p{
+  font-family: "Roboto Condensed";
+  font-size: 1.2em;
   padding:1%;
 }
 button{
   border-radius: 20px;
 }
 .row{
-  padding: 3%;
+  padding: 5%;
 }
 .container-lg {
     border-radius: 20px;
