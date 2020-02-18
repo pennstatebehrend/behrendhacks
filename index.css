@@ -21,13 +21,10 @@ h2{
 p{
   font-family: "Roboto Condensed";
   font-size: 1.1em;
-  padding:1%;
+  display: inline-block;
 }
 button{
   border-radius: 20px;
-}
-.row{
-  padding: 5%;
 }
 .container-lg {
     border-radius: 20px;
@@ -48,6 +45,9 @@ background-color:
 #fff;
 }
 
+.section-container {
+  padding: 5%;
+}
 
 #button-register {
   background: #435772;
