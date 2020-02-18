@@ -19,7 +19,9 @@ h2{
 p{
   padding:1%;
 }
-
+button{
+  border-radius: 20px;
+}
 .row{
   padding: 3%;
 }
