@@ -13,13 +13,14 @@ h1 {
 }
 h2{
   background-color: #435772;
+  font-size: 3em;
   border-radius: 1px;
   text-align: center;
   padding: 5%;
 }
 p{
   font-family: "Roboto Condensed";
-  font-size: 1.2em;
+  font-size: 1.1em;
   padding:1%;
 }
 button{
