@@ -16,10 +16,11 @@ h2{
   border-radius: 1px;
   text-align: center;
   padding: 5%;
-  font-size:2vw;
+  font-size:5vw;
 }
 p{
   padding:1%;
+  font-size:3vw;
 }
 button{
   border-radius: 20px;
