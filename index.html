@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css" type="text/css">
     <!-- google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Squada+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:300&display=swap" rel="stylesheet">
     <!-- animejs-->
     <script src="assets\animejs\anime.min.js"></script>
   </head>
@@ -75,53 +75,65 @@
                         </script>-->
         <div class="col-lg">
           <h1>BehrendHacks</h1>
-          <center>
+          <div class="col text-center">
+            <a href="register.html">
             <button type="button" id="button-register">Register</button>
-          </center>
+          </a>
+          </div>
         </div>
       </div>
 
     <div class="content">
       <!-- This will be the main infromation of the website -->
-      <div class="container">
+      <div class="container ">
       <!--This is the first row with one container for the About -->
-        <div class = "row">
+        <div class = "row section-container">
 
           <div class="container-lg" class="text-center">
               <h2 id="About">About</h2>
               <p>At Penn State Behrend we will be host a Hack-a-Thon in the Burke building April 4-5!!!</p>
+              <p>A hackathon is a 24 hour coding event where teams of upto 5 can build and create a computer related project. During hackathons there will be workshops to help people of all skill levels improve their skills.</p>
           </div>
         </div>
 
 
-        <div class = "row">
-            <div class="container-lg" class="text-center">
-              <h2>FAQ</h2>
-              <div class "container">
-                <div class="row">
-                  <p>Will food be provided? </p>
-                  <p>Yes meals will be provided.</p>
+          <div class = "row section-container">
+              <div class="container-lg" class="text-center">
+                <h2>FAQ</h2>
+                <div class="row ">
+                  <!--Use this Format to write the FAQ
+                  <p class="col-6 text-left"">Q. Will food be provided? </p>
+                  <p class="col-6 text-right">A. Yes meals will be provided.</p>
+                  -->
+
+                  <p class="col-6 text-left">Q. Will food be provided? </p>
+                  <p class=" col-6 text-right">A. Yes meals will be provided.</p>
                 </div>
+                <div class="row ">
+                  <p class="col-6 text-left">Q. Do you sleep at a hackathon? </p>
+                  <p class=" col-6 text-right">A. Yes sleep is highly encourged.</p>
+                </div>
+
+              </div>
+              </div>
             </div>
+            <div class = "row section-container">
+              <div class="container-lg" class="text-center">
+                <h2 id="Sponsors">Schedule</h2>
+                <p>
+                  TBA
+                </p>
+              </div>
             </div>
-          </div>
-          <div class = "row">
-            <div class="container-lg" class="text-center">
-              <h2 id="Sponsors">Schedule</h2>
-              <p>
-                TBA
-              </p>
-            </div>
-          </div>
-          <div class = "row">
-            <div class="container-lg" class="text-center">
-              <h2>Sponsors</h2>
-              <div class="row">
-                Content
+            <div class = "row section-container">
+              <div class="container-lg" class="text-center">
+                <h2>Sponsors</h2>
+                  Content
               </div>
             </div>
           </div>
       </div>
+
 
 
 
@@ -130,5 +142,15 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/7.8.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/7.8.2/firebase-analytics.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
   </body>
 </html>

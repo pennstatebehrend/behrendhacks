@@ -2,8 +2,8 @@
 body{
   background-color: rgb(179,244,246) ;
   color: white;
-  font-family: 'Squada One', cursive;
   background-image: url("101010croped.png");
+  font-family: 'Roboto', sans-serif;
 }
 h1 {
   background-color: #435772;
@@ -14,6 +14,7 @@ h1 {
 }
 h2{
   background-color: #435772;
+  font-size: 3em;
   border-radius: 1px;
   text-align: center;
   padding: 5%;
@@ -21,13 +22,11 @@ h2{
 }
 p{
   padding:1%;
-  font-size:3vw;
+  font-family: "Roboto Condensed";
+  font-size: 1.1em;
 }
 button{
   border-radius: 20px;
-}
-.row{
-  padding: 3%;
 }
 .container-lg {
     border-radius: 20px;
@@ -49,6 +48,9 @@ background-color:
 #fff;
 }
 
+.section-container {
+  padding: 5%;
+}
 
 #button-register {
   background: #435772;
