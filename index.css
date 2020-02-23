@@ -3,6 +3,7 @@ body{
   background-color: rgb(179,244,246) ;
   color: white;
   font-family: 'Squada One', cursive;
+  background-image: url("101010croped.png");
 }
 h1 {
   background-color: #435772;
@@ -35,6 +36,10 @@ button{
   /*This is the text block below the heading*/
   background-color: rgb(45,164,168);
   border-radius: 20px;
+}
+
+.waves{
+  background-image: url("101010.png");
 }
 #logo{
   border-radius: 20px;
