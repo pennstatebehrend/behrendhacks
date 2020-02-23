@@ -2,14 +2,15 @@
 body{
   background-color: rgb(179,244,246) ;
   color: white;
+  background-image: url("101010croped.png");
   font-family: 'Roboto', sans-serif;
-  
 }
 h1 {
   background-color: #435772;
   border-radius: 20px;
   text-align: center;
   padding: 5%;
+  font-size:6vw;
 }
 h2{
   background-color: #435772;
@@ -17,8 +18,10 @@ h2{
   border-radius: 1px;
   text-align: center;
   padding: 5%;
+  font-size:5vw;
 }
 p{
+  padding:1%;
   font-family: "Roboto Condensed";
   font-size: 1.1em;
 }
@@ -34,7 +37,8 @@ button{
   border-radius: 20px;
 }
 #logo{
-  border-radius: 20px;
+  border-radius: 100px;
+  padding: 5px;
 }
 
 .button-register:hover {

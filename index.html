@@ -12,14 +12,67 @@
     <link rel="stylesheet" href="index.css" type="text/css">
     <!-- google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:300&display=swap" rel="stylesheet">
+    <!-- animejs-->
+    <script src="assets\animejs\anime.min.js"></script>
   </head>
   <body>
+    <!-- waves -->
+    <div class="container">
+      <div class= "row">
+        <div class= "col" class="waves">
+        </div>
+        <div class= "col" class="waves">
+        </div>
+        <div class= "col" class="waves">
+        </div>
+        <div class= "col" class="waves">
+        </div>
+      </div>
+    </div>
+
+
+
+
+
     <!-- this is the heading with the title and a colorful graphic-->
     <div class="container" class= "heading">
-      <div class ="row section-container">
-        <div class= "col-lg text-center">
-          <img src="behrendhacks.png" width=50% id= "logo">
-        </div>
+      <div class ="row">
+        <center class= "col-lg">
+          <img src="assets\behrendhacks2.png" width=50% id= "logo">
+        </center>
+        <!--ship moving-->
+        <script>
+          anime({
+            targets: '#logo',
+            translateY: 6,
+            rotateX: 15,
+            rotateZ: 8,
+            duration: 1500,
+            direction: 'alternate',
+            loop: true,
+            easing: 'easeInOutSine'
+          });
+        </script>
+        <!-- this is for the ocean of 1 and 0s
+         <script>
+                  anime({
+                    targets: '#logo',
+                    translateY: 10,
+                    rotateX: 15,
+                    direction: 'alternate',
+                    loop: true,
+                    easing: 'easeInOutSine'
+                  });
+                </script>        <script>
+                          anime({
+                            targets: '#logo',
+                            translateY: 10,
+                            rotateX: 15,
+                            direction: 'alternate',
+                            loop: true,
+                            easing: 'easeInOutSine'
+                          });
+                        </script>-->
         <div class="col-lg">
           <h1>BehrendHacks</h1>
           <div class="col text-center">
@@ -29,7 +82,6 @@
           </div>
         </div>
       </div>
-
 
     <div class="content">
       <!-- This will be the main infromation of the website -->
@@ -42,7 +94,6 @@
               <p>At Penn State Behrend we will be host a Hack-a-Thon in the Burke building April 4-5!!!</p>
               <p>A hackathon is a 24 hour coding event where teams of upto 5 can build and create a computer related project. During hackathons there will be workshops to help people of all skill levels improve their skills.</p>
           </div>
-
         </div>
 
 
@@ -80,7 +131,9 @@
                   Content
               </div>
             </div>
-        </div
+          </div>
+      </div>
+
 
 
 
@@ -88,6 +141,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="/__/firebase/7.8.2/firebase-app.js"></script>
