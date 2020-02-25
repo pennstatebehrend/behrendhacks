@@ -29,6 +29,9 @@ p{
 button{
   border-radius: 20px;
 }
+.heading {
+  margin-bottom: 1%;
+}
 .container-lg {
     border-radius: 20px;
 }
